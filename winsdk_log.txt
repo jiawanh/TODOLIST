@@ -1,0 +1,1622 @@
+[11F9C:1268C][2026-08-27T17:01:46]i001: Burn v3.14.100.18719, Windows v10.0 (Build 26200: Service Pack 0), path: C:\WINDOWS\Temp\{3A490FD2-ACF5-4910-BDBA-5DDE615C8C34}\.cr\winsdksetup.exe
+[11F9C:1268C][2026-08-27T17:01:46]i009: Command Line: '-burn.clean.room=F:\AI\Antigravity\projects\ToDoList\winsdksetup.exe -burn.filehandle.attached=772 -burn.filehandle.self=776 /features + /q /norestart /log F:\AI\Antigravity\projects\ToDoList\winsdk_log.txt'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'WixBundleOriginalSource' to value 'F:\AI\Antigravity\projects\ToDoList\winsdksetup.exe'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'WixBundleOriginalSourceFolder' to value 'F:\AI\Antigravity\projects\ToDoList\'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'WixBundleLog' to value 'F:\AI\Antigravity\projects\ToDoList\winsdk_log.txt'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'WixBundleManufacturer' to value 'Microsoft Corporation'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Loading managed bootstrapper application.
+[11F9C:1268C][2026-08-27T17:01:46]i000: Creating BA thread to run synchronously.
+[11F9C:1268C][2026-08-27T17:01:46]i000: Launch action is Install
+[11F9C:1268C][2026-08-27T17:01:46]i000: Restart action is Never
+[11F9C:1268C][2026-08-27T17:01:46]i000: Resume action is Arp
+[11F9C:1268C][2026-08-27T17:01:46]i000: Display is None
+[11F9C:1268C][2026-08-27T17:01:46]i000: Loading previous setup state
+[11F9C:1268C][2026-08-27T17:01:46]i000: Current UI Culture: zh-CN
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'WixBundleName' to value 'Windows Software Development Kit - Windows 10.0.26100.7705'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Model successfully created
+[11F9C:1268C][2026-08-27T17:01:46]i000: Trying to acquire global setup mutex.
+[11F9C:1268C][2026-08-27T17:01:46]i100: Detect begin, 87 packages
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting numeric variable 'UCRTEXISTS' to value 1
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting version variable 'UCRTVERSION' to value '10.0.26100.8875'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'DotNetVersion' to value '4.8.09221'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Registry value not found. Key = 'SOFTWARE\Microsoft\VisualStudio\12.0', Value = 'ShellFolder'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'Netfx4x64FullVersion' to value '4.8.09221'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Registry value not found. Key = 'SOFTWARE\Microsoft\VisualStudio\14.0', Value = 'ShellFolder'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Registry key not found. Key = 'SOFTWARE\Microsoft\VisualStudio\11.0'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'Netfx45x64FullVersion' to value '533509'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'Netfx4FullVersion' to value '4.8.09221'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'Netfx45FullVersion' to value '533509'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'IsFunctionDiscoveryPnPProviderPresent64' to value '<provider type="{8101368E-CABB-4426-ACFF-96C4108120CD}" />'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'IsFunctionDiscoveryPnPProviderPresent' to value '<provider type="{8101368E-CABB-4426-ACFF-96C4108120CD}" />'
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WPTx64OnecoreUAP_x86_en_us, provider: Microsoft.Windows.WPTx64(OnecoreUAP).x86.10, installed: {06A37890-5602-AC68-4259-9884316F799C}, version: 10.1.26100.8249, chained: {8DD472FF-83E3-4FFA-1B97-FF8203690959}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {06A37890-5602-AC68-4259-9884316F799C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {06A37890-5602-AC68-4259-9884316F799C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WPTx64DesktopEditions_x86_en_us, provider: Microsoft.Windows.WPTx64(DesktopEditions).x86.10, installed: {6F5EADAF-760B-449E-F1DA-799761FDE48C}, version: 10.1.26100.8249, chained: {CA4D7166-C5DB-98C1-FFED-A4A74B2DDE93}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {6F5EADAF-760B-449E-F1DA-799761FDE48C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {6F5EADAF-760B-449E-F1DA-799761FDE48C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WPTRedistributables_x86_en_us, provider: Microsoft.Windows.WPTRedistributables.x86.10, installed: {808DD641-B427-604F-2BAB-41231E58EFCB}, version: 10.1.26100.8249, chained: {F05407CE-F0DF-7EA0-EDBD-AE1055875004}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {808DD641-B427-604F-2BAB-41231E58EFCB}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {808DD641-B427-604F-2BAB-41231E58EFCB}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_ApplicationVerifierx64ExternalPackageDesktopEditions_x64_en_us, provider: Microsoft.Windows.ApplicationVerifierx64ExternalPackage(DesktopEditions).x64.10.26100, installed: {16DE7B1B-89DE-63EF-7DCB-4ACE8011BEF7}, version: 10.1.26100.8249, chained: {D75B3C63-F3BB-5EC1-45A7-15C00BBB9D3F}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {16DE7B1B-89DE-63EF-7DCB-4ACE8011BEF7}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {16DE7B1B-89DE-63EF-7DCB-4ACE8011BEF7}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_ApplicationVerifierx64ExternalPackageOnecoreUAP_x64_en_us, provider: Microsoft.Windows.ApplicationVerifierx64ExternalPackage(OnecoreUAP).x64.10.26100, installed: {4E0840D9-12FD-E314-C73A-B8975923EB18}, version: 10.1.26100.8249, chained: {601DDF69-FCF4-F568-946A-C17046C946E4}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {4E0840D9-12FD-E314-C73A-B8975923EB18}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {4E0840D9-12FD-E314-C73A-B8975923EB18}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT64 AND Netfx45x64FullVersion >=378389 AND Netfx45FullVersion >=378389) OR (Netfx45FullVersion >=378389)' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsAppCertificationKitx64_x86_en_us, provider: {02213A81-CB13-7262-5ABE-1FFA2C75559F}, installed: {C1923306-4596-68DA-D556-AFBF337A3C06}, version: 10.1.26100.8249, chained: {B7BC83B0-1A94-0290-4309-820859276E72}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {C1923306-4596-68DA-D556-AFBF337A3C06}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {C1923306-4596-68DA-D556-AFBF337A3C06}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsAppCertificationKitx64OnecoreUAP_x86_en_us, provider: {FE794902-3401-49B4-83DF-D9584F4BE586}, installed: {4DCDAE93-3FB2-A113-4E23-803EC3A0D16D}, version: 10.1.26100.8249, chained: {B817BAD1-CC9F-940C-FFD8-7543D89B8EB7}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {4DCDAE93-3FB2-A113-4E23-803EC3A0D16D}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {4DCDAE93-3FB2-A113-4E23-803EC3A0D16D}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsAppCertificationKitNativeComponents_x64_en_us, provider: {3FA063D7-EDC1-AFA8-54AF-0563C7DEE070}, installed: {7EB88CFE-8E4D-3AF0-CDE7-36D9CDCB53E5}, version: 10.1.26100.8249, chained: {20C01991-CCD1-2C06-7A9A-B10A9B4AF807}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {7EB88CFE-8E4D-3AF0-CDE7-36D9CDCB53E5}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {7EB88CFE-8E4D-3AF0-CDE7-36D9CDCB53E5}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsAppCertificationKitSupportedApiListx86_x86_en_us, provider: {79d24cbf-fc9a-4798-85d8-67c3ae54f1a7}, installed: {C6F5C1C9-773D-6494-8F22-B404E9F93B10}, version: 10.1.26100.8249, chained: {E43BDB72-464A-290B-A51D-537CBBE1CAC8}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {C6F5C1C9-773D-6494-8F22-B404E9F93B10}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {C6F5C1C9-773D-6494-8F22-B404E9F93B10}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKEULA_x86_en_us, provider: Microsoft.Windows.WindowsSDKEULA.x86.10.26100, installed: {90EBF7E8-DE36-3AAD-DCA3-535DAF252B70}, version: 10.1.26100.8249, chained: {5120ED0E-8B54-B212-15E6-EE404FE83E37}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {90EBF7E8-DE36-3AAD-DCA3-535DAF252B70}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {90EBF7E8-DE36-3AAD-DCA3-535DAF252B70}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_MSIDevelopmentTools_x86_en_us, provider: Microsoft.Windows.MSIDevelopmentTools.x86.10.26100, installed: {31E25859-3D06-7BC8-5634-D0545E22BEA9}, version: 10.1.26100.8249, chained: {06671634-35F4-43F1-1B57-68B7CE54E5B3}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {31E25859-3D06-7BC8-5634-D0545E22BEA9}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {31E25859-3D06-7BC8-5634-D0545E22BEA9}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKSigningTools_x86_en_us, provider: Microsoft.Windows.WindowsSDKSigningTools.x86.10.26100, installed: {4A796E9A-0733-9144-25ED-CD683EB31AE1}, version: 10.1.26100.8249, chained: {F9DDDEF1-BCF0-275F-DE29-9332F1149B79}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {4A796E9A-0733-9144-25ED-CD683EB31AE1}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {4A796E9A-0733-9144-25ED-CD683EB31AE1}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKModernNonVersionedDeveloperTools_x86_en_us, provider: Microsoft.Windows.WindowsSDKModernNon-VersionedDeveloperTools.x86.10, installed: {1E739718-EA45-DD64-CE6D-D2BA30929E5D}, version: 10.1.26100.8249, chained: {26BD6DC6-3F0F-4C17-A78C-5D06459F39C0}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {1E739718-EA45-DD64-CE6D-D2BA30929E5D}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {1E739718-EA45-DD64-CE6D-D2BA30929E5D}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsIoTExtensionSDK_x86_en_us, provider: Microsoft.Windows.WindowsIoTExtensionSDK.x86.10.26100, installed: {AAE1B339-6BF5-3810-9008-D76887848910}, version: 10.1.26100.8249, chained: {A056CA2A-2AB1-EB1B-1B2E-D49E0C6C8E17}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {AAE1B339-6BF5-3810-9008-D76887848910}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {AAE1B339-6BF5-3810-9008-D76887848910}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_UniversalCRTToolsx86_x86_en_us, provider: Microsoft.Windows.UniversalCRTToolsx86.x86.10, installed: {E208E7C1-102E-5662-5C28-1299BCF34DA8}, version: 10.1.26100.8249, chained: {FEC52FA9-A866-C884-4AAA-0B15BE793610}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {E208E7C1-102E-5662-5C28-1299BCF34DA8}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {E208E7C1-102E-5662-5C28-1299BCF34DA8}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKforWindowsStoreAppsContracts_x86_en_us, provider: Microsoft.Windows.WindowsSDKforWindowsStoreAppsContracts.x86.10.26100, installed: {B760AE36-86D3-441B-B2BB-5DB5011BB83D}, version: 10.1.26100.8249, chained: {E8BE09DF-D93B-AE40-FD63-05E5ABEFB6D9}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {B760AE36-86D3-441B-B2BB-5DB5011BB83D}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {B760AE36-86D3-441B-B2BB-5DB5011BB83D}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_UniversalCRTToolsx64_x64_en_us, provider: Microsoft.Windows.UniversalCRTToolsx64.x64.10, installed: {8BCF5387-D185-9391-68F1-11203E6A0BFE}, version: 10.1.26100.8249, chained: {C7F2EF85-ACD3-0480-6BC2-0C3B45A8F1C1}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {8BCF5387-D185-9391-68F1-11203E6A0BFE}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {8BCF5387-D185-9391-68F1-11203E6A0BFE}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKforWindowsStoreApps_x86_en_us, provider: Microsoft.Windows.WindowsSDKforWindowsStoreApps.x86.10, installed: {81534127-B9CD-A03A-CFB7-B4684723078C}, version: 10.1.26100.8249, chained: {CEC6FB8C-1F94-F7F8-C9F7-EF55CC2A519F}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {81534127-B9CD-A03A-CFB7-B4684723078C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {81534127-B9CD-A03A-CFB7-B4684723078C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WinRTIntellisenseDesktopenus_x86_en_us, provider: Microsoft.Windows.WinRTIntellisenseDesktop-en-us.x86.10.26100, installed: {1F921A92-5498-F13A-94CC-A121A16516F5}, version: 10.1.26100.8249, chained: {572C25BD-AB18-B702-9ED7-6F0CC6821847}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {1F921A92-5498-F13A-94CC-A121A16516F5}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {1F921A92-5498-F13A-94CC-A121A16516F5}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKforWindowsStoreAppsTools_x86_en_us, provider: Microsoft.Windows.WindowsSDKforWindowsStoreAppsTools.x86.10.26100, installed: {D745B5F1-FFBE-FB02-006F-3BBF6B14076C}, version: 10.1.26100.8249, chained: {4C150435-9153-456C-C0BE-497D89513B18}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {D745B5F1-FFBE-FB02-006F-3BBF6B14076C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {D745B5F1-FFBE-FB02-006F-3BBF6B14076C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_UniversalCRTExtensionSDK_x86_en_us, provider: Microsoft.Windows.UniversalCRTExtensionSDK.x86.10.26100, installed: {88F69AF8-2F8C-146C-BE22-8941C2F960D2}, version: 10.1.26100.8249, chained: {0343A2EB-5CCA-79B9-18A4-ABD484A97924}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {88F69AF8-2F8C-146C-BE22-8941C2F960D2}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {88F69AF8-2F8C-146C-BE22-8941C2F960D2}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsDesktopExtensionSDK_x86_en_us, provider: Microsoft.Windows.WindowsDesktopExtensionSDK.x86.10.26100, installed: {60BF13CF-255E-F365-7A4D-B38C254239D3}, version: 10.1.26100.8249, chained: {FED10190-CF54-E72D-7A92-E3F9CA9B7950}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {60BF13CF-255E-F365-7A4D-B38C254239D3}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {60BF13CF-255E-F365-7A4D-B38C254239D3}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsIoTExtensionSDKContracts_x86_en_us, provider: Microsoft.Windows.WindowsIoTExtensionSDKContracts.x86.10.26100, installed: {A35FA731-19D5-B1FA-F5D8-4AC64068F9B1}, version: 10.1.26100.8249, chained: {AA11F890-8A6F-D292-8A1D-D70710A87852}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {A35FA731-19D5-B1FA-F5D8-4AC64068F9B1}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {A35FA731-19D5-B1FA-F5D8-4AC64068F9B1}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsDesktopExtensionSDKContracts_x86_en_us, provider: Microsoft.Windows.WindowsDesktopExtensionSDKContracts.x86.10.26100, installed: {B6C64034-7390-0E87-631D-48DF8649D6C1}, version: 10.1.26100.8249, chained: {F4F63553-2774-41A6-C784-7FAC7DF4CAF3}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {B6C64034-7390-0E87-631D-48DF8649D6C1}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {B6C64034-7390-0E87-631D-48DF8649D6C1}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WinRTIntellisenseIoTenus_x86_en_us, provider: Microsoft.Windows.WinRTIntellisenseIoT-en-us.x86.10.26100, installed: {26E56175-157B-DA05-07C5-28127A03F703}, version: 10.1.26100.8249, chained: {EB8B0E53-980A-E861-DC85-05240EFA888D}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {26E56175-157B-DA05-07C5-28127A03F703}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {26E56175-157B-DA05-07C5-28127A03F703}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsTeamExtensionSDK_x86_en_us, provider: Microsoft.Windows.WindowsTeamExtensionSDK.x86.10.26100, installed: {F7A3CE0E-1860-D445-4DBB-D8C70DF35828}, version: 10.1.26100.8249, chained: {1F507473-1077-3AB8-2E11-C839AE4E27B8}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {F7A3CE0E-1860-D445-4DBB-D8C70DF35828}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {F7A3CE0E-1860-D445-4DBB-D8C70DF35828}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsMobileExtensionSDKContracts_x86_en_us, provider: Microsoft.Windows.WindowsMobileExtensionSDKContracts.x86.10.26100, installed: {F142EC25-91B1-FB20-B058-5FF48A8A9AE6}, version: 10.1.26100.8249, chained: {9FA1715F-2809-3C7D-B9BB-17574DA0AED9}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {F142EC25-91B1-FB20-B058-5FF48A8A9AE6}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {F142EC25-91B1-FB20-B058-5FF48A8A9AE6}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKFacadeWindowsWinMDVersioned_x86_en_us, provider: Microsoft.Windows.WindowsSDKFacadeWindowsWinMDVersioned.x86.10.26100, installed: {7B90D6E1-4486-C2A7-2C80-EC40F178144A}, version: 10.1.26100.8249, chained: {FB4D4A9B-9E8F-42CB-B08F-AE153FFA31AC}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {7B90D6E1-4486-C2A7-2C80-EC40F178144A}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {7B90D6E1-4486-C2A7-2C80-EC40F178144A}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKModernVersionedDeveloperTools_x86_en_us, provider: Microsoft.Windows.WindowsSDKModernVersionedDeveloperTools.x86.10.26100, installed: {4406061E-9FAB-E7DE-D6A7-168FC236C0F9}, version: 10.1.26100.8249, chained: {F251EBD6-9B8C-3876-A422-B4F677BF3766}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {4406061E-9FAB-E7DE-D6A7-168FC236C0F9}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {4406061E-9FAB-E7DE-D6A7-168FC236C0F9}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WinAppDeploy_x86_en_us, provider: Microsoft.Windows.WinAppDeploy.x86.10.26100, installed: {D5C6D2A3-F8DF-D7BD-4B0E-7E53279FFA07}, version: 10.1.26100.8249, chained: {CFEF5BD7-A03F-DEF3-1707-A31C813F6D14}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {D5C6D2A3-F8DF-D7BD-4B0E-7E53279FFA07}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {D5C6D2A3-F8DF-D7BD-4B0E-7E53279FFA07}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDK_x86_en_us, provider: Microsoft.Windows.WindowsSDK.x86.10, installed: {3AC7A4D9-F3C8-03FB-4A2E-1826DA5A5312}, version: 10.1.26100.8249, chained: {A224D569-B07A-8178-A1E4-75DC397C06B2}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {3AC7A4D9-F3C8-03FB-4A2E-1826DA5A5312}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {3AC7A4D9-F3C8-03FB-4A2E-1826DA5A5312}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsMobileExtensionSDK_x86_en_us, provider: Microsoft.Windows.WindowsMobileExtensionSDK.x86.10.26100, installed: {967B098A-3582-09CA-7CE9-4DAD99673F2E}, version: 10.1.26100.8249, chained: {E901323A-7A02-50A8-F4E0-95C4AD8A098F}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {967B098A-3582-09CA-7CE9-4DAD99673F2E}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {967B098A-3582-09CA-7CE9-4DAD99673F2E}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WinRTIntellisenseMobileenus_x86_en_us, provider: Microsoft.Windows.WinRTIntellisenseMobile-en-us.x86.10.26100, installed: {C164B727-0B10-7657-F3E9-5D9D0B51E842}, version: 10.1.26100.8249, chained: {3EEF5F2A-A2A3-89FC-D7DF-CFE8DEFE4A8F}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {C164B727-0B10-7657-F3E9-5D9D0B51E842}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {C164B727-0B10-7657-F3E9-5D9D0B51E842}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_UniversalCRTRedistributable_x86_en_us, provider: Microsoft.Windows.UniversalCRTRedistributable.x86.10.26100, installed: {ADF07FC2-9CCA-CB53-317D-838D13285C13}, version: 10.1.26100.8249, chained: {368E4D03-5983-1C2C-B42E-1C0C51A935A5}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {ADF07FC2-9CCA-CB53-317D-838D13285C13}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {ADF07FC2-9CCA-CB53-317D-838D13285C13}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKforWindowsStoreManagedAppsLibs_x86_en_us, provider: Microsoft.Windows.WindowsSDKforWindowsStoreManagedAppsLibs.x86.10.26100, installed: {99086F30-0F23-AAC4-EC55-DF70B8426D0C}, version: 10.1.26100.8249, chained: {4D8C14D7-C036-33F2-EFA7-C5CC5F73932B}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {99086F30-0F23-AAC4-EC55-DF70B8426D0C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {99086F30-0F23-AAC4-EC55-DF70B8426D0C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsTeamExtensionSDKContracts_x86_en_us, provider: Microsoft.Windows.WindowsTeamExtensionSDKContracts.x86.10.26100, installed: {E4C93AF3-53B3-AAE4-036E-A3A86648691C}, version: 10.1.26100.8249, chained: {9A2FEE83-D2FB-A48E-52E0-15801042220F}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {E4C93AF3-53B3-AAE4-036E-A3A86648691C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {E4C93AF3-53B3-AAE4-036E-A3A86648691C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_UniversalCRTHeadersLibrariesandSources_x86_en_us, provider: Microsoft.Windows.UniversalCRTHeadersLibrariesandSources.x86.10.26100, installed: {2BBE2DFA-6106-03E7-2F10-974C16AF6F63}, version: 10.1.26100.8249, chained: {7D4D186C-70F0-6990-1792-DAA557B1E010}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {2BBE2DFA-6106-03E7-2F10-974C16AF6F63}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {2BBE2DFA-6106-03E7-2F10-974C16AF6F63}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKforWindowsStoreAppsMetadata_x86_en_us, provider: Microsoft.Windows.WindowsSDKforWindowsStoreAppsMetadata.x86.10.26100, installed: {ED0FB192-071A-D68C-740E-8F95846CBE40}, version: 10.1.26100.8249, chained: {AF0CF0ED-D9DA-DFDA-52DD-B3B0FE269640}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {ED0FB192-071A-D68C-740E-8F95846CBE40}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {ED0FB192-071A-D68C-740E-8F95846CBE40}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WinRTIntellisensePPIenus_x86_en_us, provider: Microsoft.Windows.WinRTIntellisensePPI-en-us.x86.10.26100, installed: {5C4A49BE-77AF-9003-DC6E-FC1F8B52B90E}, version: 10.1.26100.8249, chained: {91306123-946D-452F-3206-A8AB9F8293D6}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {5C4A49BE-77AF-9003-DC6E-FC1F8B52B90E}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {5C4A49BE-77AF-9003-DC6E-FC1F8B52B90E}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_UniversalGeneralMIDIDLSExtensionSDK_x86_en_us, provider: Microsoft.Windows.UniversalGeneralMIDIDLSExtensionSDK.x86.10.26100, installed: {5F56244D-1399-E306-695A-3938B413C81C}, version: 10.1.26100.8249, chained: {7E52FE9F-4D3E-9277-0E37-0014C83D4F5E}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {5F56244D-1399-E306-695A-3938B413C81C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {5F56244D-1399-E306-695A-3938B413C81C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WinRTIntellisenseUAPenus_x86_en_us, provider: Microsoft.Windows.WinRTIntellisenseUAP-en-us.x86.10.26100, installed: {945C810A-C3D0-8C09-8894-7B14A6C98E2E}, version: 10.1.26100.8249, chained: {5C8B4DA5-62C6-8D4A-F21A-AD4D66FCA8D9}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {945C810A-C3D0-8C09-8894-7B14A6C98E2E}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {945C810A-C3D0-8C09-8894-7B14A6C98E2E}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {AFEDE556-1D76-4165-A1E8-34FF80126836}, scope: PerMachine, version: 10.1.0.0, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKDirectXx86Remote_x86_en_us, provider: Microsoft.Windows.WindowsSDKDirectXx86Remote.x86.10, installed: {B66422CC-8E13-E396-23E2-BDDC13A965E5}, version: 10.1.26100.8249, chained: {11C0EB4F-A1BA-2068-49A5-F7C242708BA2}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {B66422CC-8E13-E396-23E2-BDDC13A965E5}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {B66422CC-8E13-E396-23E2-BDDC13A965E5}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKRedistributables_x86_en_us, provider: Microsoft.Windows.WindowsSDKRedistributables.x86.10, installed: {CDCB93A1-CC6B-8764-BED8-B0593184C733}, version: 10.1.26100.8249, chained: {96B30005-C36E-07FF-DF27-EEB8199694CD}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {CDCB93A1-CC6B-8764-BED8-B0593184C733}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {CDCB93A1-CC6B-8764-BED8-B0593184C733}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKforWindowsStoreAppsLibs_x86_en_us, provider: Microsoft.Windows.WindowsSDKforWindowsStoreAppsLibs.x86.10.26100, installed: {6EC38471-1BB4-14C1-B93C-7F21BD457A0B}, version: 10.1.26100.8249, chained: {2CAA22A5-36FE-21B0-5A67-3BE172FEFF12}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {6EC38471-1BB4-14C1-B93C-7F21BD457A0B}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {6EC38471-1BB4-14C1-B93C-7F21BD457A0B}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKforWindowsStoreAppsDirectXx86Remote_x86_en_us, provider: Microsoft.Windows.WindowsSDKforWindowsStoreAppsDirectXx86Remote.x86.10.26100, installed: {BE3E9622-B6F2-2F7B-6E4C-8DB55FC81143}, version: 10.1.26100.8249, chained: {F738E2CC-E003-B601-F38B-4521ED842C98}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {BE3E9622-B6F2-2F7B-6E4C-8DB55FC81143}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {BE3E9622-B6F2-2F7B-6E4C-8DB55FC81143}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKforWindowsStoreAppsHeadersOnecoreUap_x86_en_us, provider: Microsoft.Windows.WindowsSDKforWindowsStoreAppsHeadersOnecoreUap.x86.10.26100, installed: {89BB99BB-0F83-E561-DCC6-D41EA63008D2}, version: 10.1.26100.8249, chained: {CB91C4E7-9C14-6ABD-566B-DF4593456102}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {89BB99BB-0F83-E561-DCC6-D41EA63008D2}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {89BB99BB-0F83-E561-DCC6-D41EA63008D2}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKDirectXx64Remote_x64_en_us, provider: Microsoft.Windows.WindowsSDKDirectXx64Remote.x64.10, installed: {987FE098-8280-50F9-C911-4733FDB0A750}, version: 10.1.26100.8249, chained: {FB7C4DC7-7641-04B7-6639-589757B86783}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {987FE098-8280-50F9-C911-4733FDB0A750}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {987FE098-8280-50F9-C911-4733FDB0A750}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKforWindowsStoreAppsHeaders_x86_en_us, provider: Microsoft.Windows.WindowsSDKforWindowsStoreAppsHeaders.x86.10.26100, installed: {2C985DD5-2B48-49A4-11B4-22EAF4B77565}, version: 10.1.26100.8249, chained: {B5534577-4F61-73AC-FFCB-91B0B0674DA4}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {2C985DD5-2B48-49A4-11B4-22EAF4B77565}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {2C985DD5-2B48-49A4-11B4-22EAF4B77565}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WinRTIntellisenseIoTOtherLanguages_x86_en_us, provider: Microsoft.Windows.WinRTIntellisenseIoT-OtherLanguages.x86.10.26100, installed: {C6F08325-FFBC-CE95-11FF-881FB90E7ED6}, version: 10.1.26100.8249, chained: {3120663A-4F7D-252C-2829-1B9DBEDFEEED}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {C6F08325-FFBC-CE95-11FF-881FB90E7ED6}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {C6F08325-FFBC-CE95-11FF-881FB90E7ED6}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WinRTIntellisenseUAPOtherLanguages_x86_en_us, provider: Microsoft.Windows.WinRTIntellisenseUAP-OtherLanguages.x86.10.26100, installed: {535E44CA-45CA-F726-FD75-0C33FF6998E5}, version: 10.1.26100.8249, chained: {099E916C-D17E-7E1A-0046-3AD1D042102F}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {535E44CA-45CA-F726-FD75-0C33FF6998E5}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {535E44CA-45CA-F726-FD75-0C33FF6998E5}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WinRTIntellisensePPIOtherLanguages_x86_en_us, provider: Microsoft.Windows.WinRTIntellisensePPI-OtherLanguages.x86.10.26100, installed: {D8FC5832-F2E8-D732-759F-F5F315551089}, version: 10.1.26100.8249, chained: {9BA10CCD-7064-7FAB-B48B-C7B2CCFC60FB}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {D8FC5832-F2E8-D732-759F-F5F315551089}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {D8FC5832-F2E8-D732-759F-F5F315551089}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WinRTIntellisenseDesktopOtherLanguages_x86_en_us, provider: Microsoft.Windows.WinRTIntellisenseDesktop-OtherLanguages.x86.10.26100, installed: {B24E402A-C132-5015-597E-74E4421FBC5D}, version: 10.1.26100.8249, chained: {EA88E7B4-C204-CC0C-FC10-D13FC9C30800}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {B24E402A-C132-5015-597E-74E4421FBC5D}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {B24E402A-C132-5015-597E-74E4421FBC5D}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKOnecoreUapHeadersx86_x86_en_us, provider: Microsoft.Windows.WindowsSDKOnecoreUapHeadersx86.x86.10.26100, installed: {A7D6FC6D-7B98-1A76-0A02-1DF58A49A499}, version: 10.1.26100.8249, chained: {EFF12E8F-5027-FE5D-6ABF-5F837F3B70F8}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {A7D6FC6D-7B98-1A76-0A02-1DF58A49A499}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {A7D6FC6D-7B98-1A76-0A02-1DF58A49A499}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKDesktopHeadersx86_x86_en_us, provider: Microsoft.Windows.WindowsSDKDesktopHeadersx86.x86.10.26100, installed: {92F33968-68D2-AE46-C204-3C0C5E768E0C}, version: 10.1.26100.8249, chained: {D0772A8A-6AB2-E6E1-8BEF-29F59AB99893}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {92F33968-68D2-AE46-C204-3C0C5E768E0C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {92F33968-68D2-AE46-C204-3C0C5E768E0C}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKDesktopToolsx86_x86_en_us, provider: Microsoft.Windows.WindowsSDKDesktopToolsx86.x86.10.26100, installed: {54160306-F328-0F87-7DF9-F270EBA1C968}, version: 10.1.26100.8249, chained: {DB72537E-BD30-364B-6A72-09CE78DB8321}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {54160306-F328-0F87-7DF9-F270EBA1C968}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {54160306-F328-0F87-7DF9-F270EBA1C968}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKDesktopLibsx86_x86_en_us, provider: Microsoft.Windows.WindowsSDKDesktopLibsx86.x86.10.26100, installed: {86D1F29F-5B92-64EF-7870-A9D542F20E1A}, version: 10.1.26100.8249, chained: {9EE92E02-FA29-DF43-7E45-A256139DEBE4}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {86D1F29F-5B92-64EF-7870-A9D542F20E1A}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {86D1F29F-5B92-64EF-7870-A9D542F20E1A}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKDesktopToolsx64_x86_en_us, provider: Microsoft.Windows.WindowsSDKDesktopToolsx64.x86.10.26100, installed: {CC6E76A4-74E1-94EB-13C8-471611347012}, version: 10.1.26100.8249, chained: {EB362CC9-F0B3-EDBC-82E8-91F6BBF36F6E}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {CC6E76A4-74E1-94EB-13C8-471611347012}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {CC6E76A4-74E1-94EB-13C8-471611347012}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKDesktopLibsx64_x86_en_us, provider: Microsoft.Windows.WindowsSDKDesktopLibsx64.x86.10.26100, installed: {7B96EE5C-A097-5EF2-A0AA-035A7C25D734}, version: 10.1.26100.8249, chained: {12C6754C-2086-9BFC-1292-FA0BE54009E6}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {7B96EE5C-A097-5EF2-A0AA-035A7C25D734}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {7B96EE5C-A097-5EF2-A0AA-035A7C25D734}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKDesktopHeadersx64_x86_en_us, provider: Microsoft.Windows.WindowsSDKDesktopHeadersx64.x86.10.26100, installed: {28C90E10-A917-28CE-DC76-63B86B801968}, version: 10.1.26100.8249, chained: {CCEEC7A2-2179-C5D0-60E2-2651993A8AD5}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {28C90E10-A917-28CE-DC76-63B86B801968}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {28C90E10-A917-28CE-DC76-63B86B801968}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKOnecoreUapHeadersx64_x86_en_us, provider: Microsoft.Windows.WindowsSDKOnecoreUapHeadersx64.x86.10.26100, installed: {285E556E-3824-69AB-ED64-BB669B207712}, version: 10.1.26100.8249, chained: {80F76A51-EAF7-DA8E-C732-B26C591BCC23}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {285E556E-3824-69AB-ED64-BB669B207712}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {285E556E-3824-69AB-ED64-BB669B207712}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKDesktopToolsarm64_x86_en_us, provider: Microsoft.Windows.WindowsSDKDesktopToolsarm64.x86.10.26100, installed: {A78C706E-78C7-798A-4A44-0F1A12DC82EA}, version: 10.1.26100.8249, chained: {7C1561F8-C963-0AC7-21BD-EA4DD9633C50}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {A78C706E-78C7-798A-4A44-0F1A12DC82EA}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {A78C706E-78C7-798A-4A44-0F1A12DC82EA}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKDesktopHeadersarm64_x86_en_us, provider: Microsoft.Windows.WindowsSDKDesktopHeadersarm64.x86.10.26100, installed: {5E41DEDD-6732-45B2-55F7-2B8ADB962BA1}, version: 10.1.26100.8249, chained: {0A1B70B0-DD98-1BCC-6958-D5AD8BBAF2B2}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {5E41DEDD-6732-45B2-55F7-2B8ADB962BA1}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {5E41DEDD-6732-45B2-55F7-2B8ADB962BA1}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKDesktopLibsarm64_x86_en_us, provider: Microsoft.Windows.WindowsSDKDesktopLibsarm64.x86.10.26100, installed: {B68CFC5D-B865-CAE4-8D6F-A96E38F77B53}, version: 10.1.26100.8249, chained: {2C37C218-88FF-9E58-0151-1AF693535792}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {B68CFC5D-B865-CAE4-8D6F-A96E38F77B53}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {B68CFC5D-B865-CAE4-8D6F-A96E38F77B53}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKARM64DesktopTools_x86_en_us, provider: Microsoft.Windows.WindowsSDKARM64DesktopTools.x86.10.26100, installed: {D4661B31-BBFA-81F5-CEA0-E347743E28C6}, version: 10.1.26100.8249, chained: {575077AC-CCC1-9943-6F3C-EDB6149964E7}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {D4661B31-BBFA-81F5-CEA0-E347743E28C6}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {D4661B31-BBFA-81F5-CEA0-E347743E28C6}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_WindowsSDKOnecoreUapHeadersarm64_x86_en_us, provider: Microsoft.Windows.WindowsSDKOnecoreUapHeadersarm64.x86.10.26100, installed: {7F505DDA-6C43-72E2-59F9-B110F04B8F45}, version: 10.1.26100.8249, chained: {85F3FF9F-CFBA-AD2F-85E2-90571032D412}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {7F505DDA-6C43-72E2-59F9-B110F04B8F45}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {7F505DDA-6C43-72E2-59F9-B110F04B8F45}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_SDKARM64Additions_x86_en_us, provider: Microsoft.Windows.SDKARM64Additions.x86.10, installed: {8239C6FD-C81A-2B96-28C7-2F128E95DFD5}, version: 10.1.26100.8249, chained: {E93670D9-924A-7B6F-5F55-AE8E3043BCB0}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {8239C6FD-C81A-2B96-28C7-2F128E95DFD5}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {8239C6FD-C81A-2B96-28C7-2F128E95DFD5}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i108: Detected compatible package: package_SDKARM64Redistributables_x86_en_us, provider: Microsoft.Windows.SDKARM64Redistributables.x86.10, installed: {A52A835F-9712-D570-A752-3B9F9D16D324}, version: 10.1.26100.8249, chained: {AA86DFC1-17A2-6133-1D55-92818B9D3082}
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {A52A835F-9712-D570-A752-3B9F9D16D324}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: Downgrade
+[11F9C:1268C][2026-08-27T17:01:46]i103: Detected related package: {A52A835F-9712-D570-A752-3B9F9D16D324}, scope: PerMachine, version: 10.1.26100.8249, language: 0 operation: MajorUpgrade
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WPTx86OnecoreUAP_x86_en_us, state: Absent, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WPTx86DesktopEditions_x86_en_us, state: Absent, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WPTx64OnecoreUAP_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WPTx64DesktopEditions_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WPTarm64OnecoreUAP_arm64_en_us, state: Absent, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WPTarm64DesktopEditions_arm64_en_us, state: Absent, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WPTRedistributables_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_SDKDebuggers_x86_en_us, state: Present, cached: Complete
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_ApplicationVerifierx86ExternalPackageDesktopEditions_x86_en_us, state: Absent, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_ApplicationVerifierx86ExternalPackageOnecoreUAP_x86_en_us, state: Absent, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_ApplicationVerifierx64ExternalPackageDesktopEditions_x64_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_ApplicationVerifierx64ExternalPackageOnecoreUAP_x64_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_ApplicationVerifierarm64ExternalPackageDesktopEditions_arm64_en_us, state: Absent, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_ApplicationVerifierarm64ExternalPackageOnecoreUAP_arm64_en_us, state: Absent, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_.Net_Framework_4.5, state: Present, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_Microsoft_.NET_Framework_4.8.1_Tools, state: Present, cached: Complete
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_.NET_Framework_4.8.1_Targeting_Pack, state: Present, cached: Complete
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_KitsConfigurationInstaller_x86_en_us, state: Present, cached: Complete
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsAppCertificationKitx86OnecoreUAP_x86_en_us, state: Absent, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsAppCertificationKitx64_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsAppCertificationKitx86_x86_en_us, state: Absent, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsAppCertificationKitx64OnecoreUAP_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsAppCertificationKitNativeComponents_x86_en_us, state: Absent, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsAppCertificationKitNativeComponents_x64_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsAppCertificationKitSupportedApiListx86_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKEULA_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsIPOverUSB_x86_en_us, state: Present, cached: Complete
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_MSIDevelopmentTools_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKSigningTools_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKModernNonVersionedDeveloperTools_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKforWindowsStoreAppsLegacyTools_x86_en_us, state: Absent, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsIoTExtensionSDK_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_UniversalCRTToolsx86_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKforWindowsStoreAppsContracts_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_UniversalCRTToolsx64_x64_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKforWindowsStoreApps_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WinRTIntellisenseDesktopenus_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKforWindowsStoreAppsTools_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_UniversalCRTExtensionSDK_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsDesktopExtensionSDK_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_UniversalCRTToolsarm64_arm64_en_us, state: Absent, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsIoTExtensionSDKContracts_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsDesktopExtensionSDKContracts_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WinRTIntellisenseIoTenus_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsTeamExtensionSDK_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsMobileExtensionSDKContracts_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKFacadeWindowsWinMDVersioned_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKModernVersionedDeveloperTools_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WinAppDeploy_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDK_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsMobileExtensionSDK_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WinRTIntellisenseMobileenus_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_UniversalCRTRedistributable_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKforWindowsStoreManagedAppsLibs_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsTeamExtensionSDKContracts_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_UniversalCRTHeadersLibrariesandSources_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKforWindowsStoreAppsMetadata_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WinRTIntellisensePPIenus_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_UniversalGeneralMIDIDLSExtensionSDK_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WinRTIntellisenseUAPenus_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_Facade_winmd, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKDirectXx86Remote_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKRedistributables_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKforWindowsStoreAppsLibs_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKforWindowsStoreAppsDirectXx86Remote_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKforWindowsStoreAppsHeadersOnecoreUap_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKDirectXx64Remote_x64_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKforWindowsStoreAppsHeaders_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WinRTIntellisenseIoTOtherLanguages_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WinRTIntellisenseUAPOtherLanguages_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WinRTIntellisensePPIOtherLanguages_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WinRTIntellisenseDesktopOtherLanguages_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKOnecoreUapHeadersx86_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKDesktopHeadersx86_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKDesktopToolsx86_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKDesktopLibsx86_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKDesktopToolsx64_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKDesktopLibsx64_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKDesktopHeadersx64_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKOnecoreUapHeadersx64_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKDesktopToolsarm64_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKDesktopHeadersarm64_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKDesktopLibsarm64_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKARM64DesktopTools_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_WindowsSDKOnecoreUapHeadersarm64_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_SDKARM64Additions_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i101: Detected package: package_SDKARM64Redistributables_x86_en_us, state: Obsolete, cached: None
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'VS2022INSTALL' to value 'C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'WDKVsixComponentRequired' to value '1'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'UserLocale' to value 'zh-cn'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'Arch' to value 'amd64'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting numeric variable 'IsFlightedSDK' to value 0
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.2" AND Arch = "x86"' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.2") AND (Arch = "arm64")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.2"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.2" AND Arch = "amd64"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.2" AND Arch = "amd64"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.2") AND (Arch = "arm64")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.2" AND Arch = "x86"' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(Arch = "x86")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(Arch = "amd64")' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(Arch = "amd64")' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(Arch = "x86")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(Arch = "arm64")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(Arch = "arm64")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1" OR VersionNT64 >= "6.1") AND DotNetVersion >= "4.6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1" OR VersionNT64 >= "6.1") AND DotNetVersion >= "4.6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1.0.0" OR VersionNT64 >= "6.1.0.0") AND (Arch = "x86")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1.0.0" OR VersionNT64 >= "6.1.0.0") AND (Arch = "amd64")' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1.0.0" OR VersionNT64 >= "6.1.0.0") AND (Arch = "x86")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1.0.0" OR VersionNT64 >= "6.1.0.0") AND (Arch = "amd64")' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1.0.0" OR VersionNT64 >= "6.1.0.0") AND (Arch = "x86")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1.0.0" OR VersionNT64 >= "6.1.0.0") AND (Arch = "amd64")' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1.0.0" OR VersionNT64 >= "6.1.0.0")' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '((VersionNT >= "6.1") OR (VersionNT64 >= "6.1")) AND (IsFunctionDiscoveryPnPProviderPresent OR IsFunctionDiscoveryPnPProviderPresent64)' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT <= "6.1"' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1") AND (Arch = "amd64")' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1") AND (Arch = "arm64")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1" OR VersionNT64 >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1" OR VersionNT64 >= "6.1") AND (Arch = "amd64")' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT < "6.1"' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1" OR VersionNT64 >= "6.1") AND DotNetVersion < "4.5.3"' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1" OR VersionNT64 >= "6.1") AND (DotNetVersion >= "4.5.3") AND NOT (UCRTEXISTS > "0" AND UCRTVERSION >= "10.0.0")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VS2012INSTALL) OR (VS2013INSTALL) OR (VS2014INSTALL) OR (VS2017INSTALL) OR (VS2019INSTALL) OR (VS2022INSTALL)' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i000: Features selected using /features: OptionId.WindowsPerformanceToolkit OptionId.WindowsDesktopDebuggers OptionId.AvrfExternal OptionId.NetFxSoftwareDevelopmentKit OptionId.WindowsSoftwareLogoToolkit OptionId.IpOverUsb OptionId.MSIInstallTools OptionId.SigningTools OptionId.UWPManaged OptionId.UWPCPP OptionId.UWPLocalized OptionId.DesktopCPPx86 OptionId.DesktopCPPx64 OptionId.DesktopCPParm64 
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'WixBundleOriginalSource' to value 'C:\WINDOWS\Temp\{3A490FD2-ACF5-4910-BDBA-5DDE615C8C34}\.cr\winsdksetup.exe'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'KITSROOT' to value 'E:\Windows Kits\10\'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'QUIETFLAG' to value '/q'
+[11F9C:1268C][2026-08-27T17:01:46]i199: Detect complete, result: 0x0
+[11F9C:1268C][2026-08-27T17:01:46]i200: Plan begin, 87 packages, action: Modify
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.2" AND Arch = "x86"' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT >= "6.2" AND Arch = "x86"' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.2") AND (Arch = "arm64")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.2") AND (Arch = "arm64")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(Arch = "x86")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(Arch = "x86")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(Arch = "arm64")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(Arch = "arm64")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]w321: Skipping dependency registration on package with no dependency providers: package_.Net_Framework_4.5
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1" OR VersionNT64 >= "6.1") AND DotNetVersion >= "4.6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1" OR VersionNT64 >= "6.1") AND DotNetVersion >= "4.6.1"' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i000: Setting string variable 'KitsCeipOptIn' to value '-1'
+[11F9C:1268C][2026-08-27T17:01:46]i000: Requested state for kits configuration installer: None
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1.0.0" OR VersionNT64 >= "6.1.0.0") AND (Arch = "x86")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1.0.0" OR VersionNT64 >= "6.1.0.0") AND (Arch = "x86")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1.0.0" OR VersionNT64 >= "6.1.0.0") AND (Arch = "x86")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '((VersionNT >= "6.1") OR (VersionNT64 >= "6.1")) AND (IsFunctionDiscoveryPnPProviderPresent OR IsFunctionDiscoveryPnPProviderPresent64)' evaluates to true.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition 'VersionNT <= "6.1"' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i052: Condition '(VersionNT >= "6.1") AND (Arch = "arm64")' evaluates to false.
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WPTx86OnecoreUAP_x86_en_us, state: Absent, default requested: Absent, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WPTx86DesktopEditions_x86_en_us, state: Absent, default requested: Absent, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WPTx64OnecoreUAP_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WPTx64DesktopEditions_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WPTarm64OnecoreUAP_arm64_en_us, state: Absent, default requested: Absent, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WPTarm64DesktopEditions_arm64_en_us, state: Absent, default requested: Absent, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WPTRedistributables_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_SDKDebuggers_x86_en_us, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_ApplicationVerifierx86ExternalPackageDesktopEditions_x86_en_us, state: Absent, default requested: Absent, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_ApplicationVerifierx86ExternalPackageOnecoreUAP_x86_en_us, state: Absent, default requested: Absent, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_ApplicationVerifierx64ExternalPackageDesktopEditions_x64_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_ApplicationVerifierx64ExternalPackageOnecoreUAP_x64_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_ApplicationVerifierarm64ExternalPackageDesktopEditions_arm64_en_us, state: Absent, default requested: Absent, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_ApplicationVerifierarm64ExternalPackageOnecoreUAP_arm64_en_us, state: Absent, default requested: Absent, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_.Net_Framework_4.5, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_Microsoft_.NET_Framework_4.8.1_Tools, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_.NET_Framework_4.8.1_Targeting_Pack, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_KitsConfigurationInstaller_x86_en_us, state: Present, default requested: Present, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsAppCertificationKitx86OnecoreUAP_x86_en_us, state: Absent, default requested: Absent, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsAppCertificationKitx64_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsAppCertificationKitx86_x86_en_us, state: Absent, default requested: Absent, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsAppCertificationKitx64OnecoreUAP_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsAppCertificationKitNativeComponents_x86_en_us, state: Absent, default requested: Absent, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsAppCertificationKitNativeComponents_x64_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsAppCertificationKitSupportedApiListx86_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKEULA_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsIPOverUSB_x86_en_us, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_MSIDevelopmentTools_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKSigningTools_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKModernNonVersionedDeveloperTools_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKforWindowsStoreAppsLegacyTools_x86_en_us, state: Absent, default requested: Absent, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsIoTExtensionSDK_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_UniversalCRTToolsx86_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKforWindowsStoreAppsContracts_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_UniversalCRTToolsx64_x64_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKforWindowsStoreApps_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WinRTIntellisenseDesktopenus_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKforWindowsStoreAppsTools_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_UniversalCRTExtensionSDK_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsDesktopExtensionSDK_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_UniversalCRTToolsarm64_arm64_en_us, state: Absent, default requested: Absent, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsIoTExtensionSDKContracts_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsDesktopExtensionSDKContracts_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WinRTIntellisenseIoTenus_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsTeamExtensionSDK_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsMobileExtensionSDKContracts_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKFacadeWindowsWinMDVersioned_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKModernVersionedDeveloperTools_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WinAppDeploy_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDK_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsMobileExtensionSDK_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WinRTIntellisenseMobileenus_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_UniversalCRTRedistributable_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKforWindowsStoreManagedAppsLibs_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsTeamExtensionSDKContracts_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_UniversalCRTHeadersLibrariesandSources_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKforWindowsStoreAppsMetadata_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WinRTIntellisensePPIenus_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_UniversalGeneralMIDIDLSExtensionSDK_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WinRTIntellisenseUAPenus_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_Facade_winmd, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKDirectXx86Remote_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKRedistributables_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKforWindowsStoreAppsLibs_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKforWindowsStoreAppsDirectXx86Remote_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKforWindowsStoreAppsHeadersOnecoreUap_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKDirectXx64Remote_x64_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKforWindowsStoreAppsHeaders_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WinRTIntellisenseIoTOtherLanguages_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WinRTIntellisenseUAPOtherLanguages_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WinRTIntellisensePPIOtherLanguages_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WinRTIntellisenseDesktopOtherLanguages_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKOnecoreUapHeadersx86_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKDesktopHeadersx86_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKDesktopToolsx86_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKDesktopLibsx86_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKDesktopToolsx64_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKDesktopLibsx64_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKDesktopHeadersx64_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKOnecoreUapHeadersx64_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKDesktopToolsarm64_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKDesktopHeadersarm64_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKDesktopLibsarm64_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKARM64DesktopTools_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_WindowsSDKOnecoreUapHeadersarm64_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_SDKARM64Additions_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i201: Planned package: package_SDKARM64Redistributables_x86_en_us, state: Obsolete, default requested: None, ba requested: None, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[11F9C:1268C][2026-08-27T17:01:46]i299: Plan complete, result: 0x0
+[11F9C:1268C][2026-08-27T17:01:46]i300: Apply begin
+[11F9C:1268C][2026-08-27T17:01:46]i010: Launching elevated engine process.
+[11F9C:1268C][2026-08-27T17:01:47]i011: Launched elevated engine process.
+[11F9C:1268C][2026-08-27T17:01:47]i012: Connected to elevated engine.
+[128C4:1111C][2026-08-27T17:01:47]i358: Pausing automatic updates.
+[128C4:1111C][2026-08-27T17:01:47]i359: Paused automatic updates.
+[128C4:1111C][2026-08-27T17:01:47]i360: Creating a system restore point.
+[128C4:1111C][2026-08-27T17:01:47]w363: Could not create system restore point, error: 0x80070422. Continuing...
+[128C4:1111C][2026-08-27T17:01:47]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{c0b93b80-d0a4-47fc-a4d1-21a4008a63ca}, resume: Active, restart initiated: No, disable resume: No
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WPTx64(OnecoreUAP).x86.10, package: package_WPTx64OnecoreUAP_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WPTx64(DesktopEditions).x86.10, package: package_WPTx64DesktopEditions_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WPTRedistributables.x86.10, package: package_WPTRedistributables_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.SDKDebuggers.x86.10, package: package_SDKDebuggers_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.ApplicationVerifierx64ExternalPackage(DesktopEditions).x64.10.26100, package: package_ApplicationVerifierx64ExternalPackageDesktopEditions_x64_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.ApplicationVerifierx64ExternalPackage(OnecoreUAP).x64.10.26100, package: package_ApplicationVerifierx64ExternalPackageOnecoreUAP_x64_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.NetFx.SDK_4.8.1, package: package_Microsoft_.NET_Framework_4.8.1_Tools
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.NetFx.MTPack_4.8.1, package: package_.NET_Framework_4.8.1_Targeting_Pack
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: {02213A81-CB13-7262-5ABE-1FFA2C75559F}, package: package_WindowsAppCertificationKitx64_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: {FE794902-3401-49B4-83DF-D9584F4BE586}, package: package_WindowsAppCertificationKitx64OnecoreUAP_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: {3FA063D7-EDC1-AFA8-54AF-0563C7DEE070}, package: package_WindowsAppCertificationKitNativeComponents_x64_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: {79d24cbf-fc9a-4798-85d8-67c3ae54f1a7}, package: package_WindowsAppCertificationKitSupportedApiListx86_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKEULA.x86.10.26100, package: package_WindowsSDKEULA_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsIPOverUSB.x86.10, package: package_WindowsIPOverUSB_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.MSIDevelopmentTools.x86.10.26100, package: package_MSIDevelopmentTools_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKSigningTools.x86.10.26100, package: package_WindowsSDKSigningTools_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKModernNon-VersionedDeveloperTools.x86.10, package: package_WindowsSDKModernNonVersionedDeveloperTools_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsIoTExtensionSDK.x86.10.26100, package: package_WindowsIoTExtensionSDK_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.UniversalCRTToolsx86.x86.10, package: package_UniversalCRTToolsx86_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKforWindowsStoreAppsContracts.x86.10.26100, package: package_WindowsSDKforWindowsStoreAppsContracts_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.UniversalCRTToolsx64.x64.10, package: package_UniversalCRTToolsx64_x64_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKforWindowsStoreApps.x86.10, package: package_WindowsSDKforWindowsStoreApps_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WinRTIntellisenseDesktop-en-us.x86.10.26100, package: package_WinRTIntellisenseDesktopenus_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKforWindowsStoreAppsTools.x86.10.26100, package: package_WindowsSDKforWindowsStoreAppsTools_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.UniversalCRTExtensionSDK.x86.10.26100, package: package_UniversalCRTExtensionSDK_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsDesktopExtensionSDK.x86.10.26100, package: package_WindowsDesktopExtensionSDK_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsIoTExtensionSDKContracts.x86.10.26100, package: package_WindowsIoTExtensionSDKContracts_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsDesktopExtensionSDKContracts.x86.10.26100, package: package_WindowsDesktopExtensionSDKContracts_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WinRTIntellisenseIoT-en-us.x86.10.26100, package: package_WinRTIntellisenseIoTenus_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsTeamExtensionSDK.x86.10.26100, package: package_WindowsTeamExtensionSDK_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsMobileExtensionSDKContracts.x86.10.26100, package: package_WindowsMobileExtensionSDKContracts_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKFacadeWindowsWinMDVersioned.x86.10.26100, package: package_WindowsSDKFacadeWindowsWinMDVersioned_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKModernVersionedDeveloperTools.x86.10.26100, package: package_WindowsSDKModernVersionedDeveloperTools_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WinAppDeploy.x86.10.26100, package: package_WinAppDeploy_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDK.x86.10, package: package_WindowsSDK_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsMobileExtensionSDK.x86.10.26100, package: package_WindowsMobileExtensionSDK_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WinRTIntellisenseMobile-en-us.x86.10.26100, package: package_WinRTIntellisenseMobileenus_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.UniversalCRTRedistributable.x86.10.26100, package: package_UniversalCRTRedistributable_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKforWindowsStoreManagedAppsLibs.x86.10.26100, package: package_WindowsSDKforWindowsStoreManagedAppsLibs_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsTeamExtensionSDKContracts.x86.10.26100, package: package_WindowsTeamExtensionSDKContracts_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.UniversalCRTHeadersLibrariesandSources.x86.10.26100, package: package_UniversalCRTHeadersLibrariesandSources_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKforWindowsStoreAppsMetadata.x86.10.26100, package: package_WindowsSDKforWindowsStoreAppsMetadata_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WinRTIntellisensePPI-en-us.x86.10.26100, package: package_WinRTIntellisensePPIenus_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.UniversalGeneralMIDIDLSExtensionSDK.x86.10.26100, package: package_UniversalGeneralMIDIDLSExtensionSDK_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WinRTIntellisenseUAP-en-us.x86.10.26100, package: package_WinRTIntellisenseUAPenus_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.UAPSDKAddOn.SDK,10, package: package_Facade_winmd
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKDirectXx86Remote.x86.10, package: package_WindowsSDKDirectXx86Remote_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKRedistributables.x86.10, package: package_WindowsSDKRedistributables_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKforWindowsStoreAppsLibs.x86.10.26100, package: package_WindowsSDKforWindowsStoreAppsLibs_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKforWindowsStoreAppsDirectXx86Remote.x86.10.26100, package: package_WindowsSDKforWindowsStoreAppsDirectXx86Remote_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKforWindowsStoreAppsHeadersOnecoreUap.x86.10.26100, package: package_WindowsSDKforWindowsStoreAppsHeadersOnecoreUap_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKDirectXx64Remote.x64.10, package: package_WindowsSDKDirectXx64Remote_x64_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKforWindowsStoreAppsHeaders.x86.10.26100, package: package_WindowsSDKforWindowsStoreAppsHeaders_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WinRTIntellisenseIoT-OtherLanguages.x86.10.26100, package: package_WinRTIntellisenseIoTOtherLanguages_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WinRTIntellisenseUAP-OtherLanguages.x86.10.26100, package: package_WinRTIntellisenseUAPOtherLanguages_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WinRTIntellisensePPI-OtherLanguages.x86.10.26100, package: package_WinRTIntellisensePPIOtherLanguages_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WinRTIntellisenseDesktop-OtherLanguages.x86.10.26100, package: package_WinRTIntellisenseDesktopOtherLanguages_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKOnecoreUapHeadersx86.x86.10.26100, package: package_WindowsSDKOnecoreUapHeadersx86_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKDesktopHeadersx86.x86.10.26100, package: package_WindowsSDKDesktopHeadersx86_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKDesktopToolsx86.x86.10.26100, package: package_WindowsSDKDesktopToolsx86_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKDesktopLibsx86.x86.10.26100, package: package_WindowsSDKDesktopLibsx86_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKDesktopToolsx64.x86.10.26100, package: package_WindowsSDKDesktopToolsx64_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKDesktopLibsx64.x86.10.26100, package: package_WindowsSDKDesktopLibsx64_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKDesktopHeadersx64.x86.10.26100, package: package_WindowsSDKDesktopHeadersx64_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKOnecoreUapHeadersx64.x86.10.26100, package: package_WindowsSDKOnecoreUapHeadersx64_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKDesktopToolsarm64.x86.10.26100, package: package_WindowsSDKDesktopToolsarm64_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKDesktopHeadersarm64.x86.10.26100, package: package_WindowsSDKDesktopHeadersarm64_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKDesktopLibsarm64.x86.10.26100, package: package_WindowsSDKDesktopLibsarm64_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKARM64DesktopTools.x86.10.26100, package: package_WindowsSDKARM64DesktopTools_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.WindowsSDKOnecoreUapHeadersarm64.x86.10.26100, package: package_WindowsSDKOnecoreUapHeadersarm64_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.SDKARM64Additions.x86.10, package: package_SDKARM64Additions_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i325: Registering dependency: {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca} on package provider: Microsoft.Windows.SDKARM64Redistributables.x86.10, package: package_SDKARM64Redistributables_x86_en_us
+[128C4:1111C][2026-08-27T17:01:47]i372: Session end, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{c0b93b80-d0a4-47fc-a4d1-21a4008a63ca}, resume: ARP, restart: None, disable resume: No
+[128C4:1111C][2026-08-27T17:01:47]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{c0b93b80-d0a4-47fc-a4d1-21a4008a63ca}, resume: ARP, restart initiated: No, disable resume: No
+[11F9C:1268C][2026-08-27T17:01:47]i000: Setting string variable 'SetupSessionState' to value '<?xml version="1.0" encoding="utf-16"?>
+<UserExperienceManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/Setup/2010/01/Burn/UserExperience">
+  <Settings>
+    <BundleId>BundleId.WindowsSDK</BundleId>
+    <Company>Microsoft Corporation</Company>
+    <DefaultInstallPath MsiVariable="KITSROOT" IsLocked="false">E:\Windows Kits\10\</DefaultInstallPath>
+    <DefaultDownloadPath>C:\Users\21655\Downloads\Windows Kits\10\WindowsSDK</DefaultDownloadPath>
+    <DownloadAllContent>false</DownloadAllContent>
+    <GuideDocCheckedByDefault>false</GuideDocCheckedByDefault>
+    <GuideDocVisibleDuringUpdate>false</GuideDocVisibleDuringUpdate>
+    <DetectingVS>true</DetectingVS>
+    <Eula>license.rtf</Eula>
+    <EulaVersion>10.0.0.0</EulaVersion>
+    <ProductVersion>10.1.26100.7705</ProductVersion>
+    <UpgradeCode>{0A07A4BD-D942-5CF1-E76C-210F9FC1307B}</UpgradeCode>
+    <ProductName>Windows Software Development Kit - Windows 10.0.26100.7705</ProductName>
+    <SourceResolution>
+      <DownloadRoot>http://go.microsoft.com/fwlink/?prd=11966&amp;pver=1.0&amp;plcid=0x409&amp;clcid=0x409&amp;ar=Windows10&amp;sar=SDK&amp;o1=10.0.26100.7705</DownloadRoot>
+    </SourceResolution>
+  </Settings>
+  <Options>
+    <Option Id="OptionId.WindowsPerformanceToolkit" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows Performance Toolkit">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WPTx86OnecoreUAP_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.2&quot; AND Arch = &quot;x86&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WPTarm64OnecoreUAP_arm64_en_us" InstallCondition="(VersionNT &gt;= &quot;6.2&quot;) AND (Arch = &quot;arm64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WPTRedistributables_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.2&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WPTx64OnecoreUAP_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.2&quot; AND Arch = &quot;amd64&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WPTx64DesktopEditions_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.2&quot; AND Arch = &quot;amd64&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+        <Package Id="package_WPTarm64DesktopEditions_arm64_en_us" InstallCondition="(VersionNT &gt;= &quot;6.2&quot;) AND (Arch = &quot;arm64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WPTx86DesktopEditions_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.2&quot; AND Arch = &quot;x86&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Bullets>
+          <Bullet>
+            <Label>Windows Performance Recorder</Label>
+          </Bullet>
+          <Bullet>
+            <Label>Windows Performance Analyzer</Label>
+          </Bullet>
+          <Bullet>
+            <Label>Xperf</Label>
+          </Bullet>
+        </Bullets>
+        <Paragraph>
+          <Label>Tools to record system events by using Event Tracing for Windows, and a tool to analyze performance data in a graphical user interface.</Label>
+        </Paragraph>
+        <Paragraph>
+          <Label>Includes:</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.WindowsDesktopDebuggers" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Debugging Tools for Windows">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_SDKDebuggers_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>Kernel and user-mode debuggers as well as help and tips for using Debugging Tools for Windows.</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.AvrfExternal" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Application Verifier For Windows">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_ApplicationVerifierx86ExternalPackageOnecoreUAP_x86_en_us" InstallCondition="(Arch = &quot;x86&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_ApplicationVerifierx64ExternalPackageDesktopEditions_x64_en_us" InstallCondition="(Arch = &quot;amd64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_ApplicationVerifierx64ExternalPackageOnecoreUAP_x64_en_us" InstallCondition="(Arch = &quot;amd64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_ApplicationVerifierx86ExternalPackageDesktopEditions_x86_en_us" InstallCondition="(Arch = &quot;x86&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_ApplicationVerifierarm64ExternalPackageDesktopEditions_arm64_en_us" InstallCondition="(Arch = &quot;arm64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_ApplicationVerifierarm64ExternalPackageOnecoreUAP_arm64_en_us" InstallCondition="(Arch = &quot;arm64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>Application Verifier is a runtime verification tool for unmanaged code. It assists developers in quickly finding subtle programming errors that can be extremely difficult to identify with normal application testing. Application Verifier makes it easier to create reliable applications by monitoring an application's interaction with the Microsoft Windows operating system, profiling its use of kernel objects, the registry, the file system, and Microsoft Win32 APIs (heap, handles, locks, and more). </Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.Netfx" Available="true" Selected="true" SetupPrerequisite="true" Prerelease="false" Infrastructure="true" Name="Microsoft .NET Framework 4.5">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_.Net_Framework_4.5" SkipMsiReplacementCheck="false" SharedOrPayload="false">
+          <PackageLog>
+            <CustomLogs>
+              <CustomLog Type="RedirectedFile" Preferred="false" CreateSubdirectory="false" Extension=".htm" />
+            </CustomLogs>
+          </PackageLog>
+        </Package>
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>.NET Framework 4.0 is required to install this kit.</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.NetFxSoftwareDevelopmentKit" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name=".NET Framework 4.8.1 Software Development Kit">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_Microsoft_.NET_Framework_4.8.1_Tools" InstallCondition="(VersionNT &gt;= &quot;6.1&quot; OR VersionNT64 &gt;= &quot;6.1&quot;) AND DotNetVersion &gt;= &quot;4.6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+        <Package Id="package_.NET_Framework_4.8.1_Targeting_Pack" InstallCondition="(VersionNT &gt;= &quot;6.1&quot; OR VersionNT64 &gt;= &quot;6.1&quot;) AND DotNetVersion &gt;= &quot;4.6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>Components that let you develop managed code applications.  Included are Reference Assemblies and Tools targeting .NET Framework 4.8.1</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.KitsConfiguration" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="true" Name="Kits Configuration Installer">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_KitsConfigurationInstaller_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>This is a required installer for every kit.</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.WindowsSoftwareLogoToolkit" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows App Certification Kit">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsAppCertificationKitx86OnecoreUAP_x86_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1.0.0&quot; OR VersionNT64 &gt;= &quot;6.1.0.0&quot;) AND (Arch = &quot;x86&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsAppCertificationKitx64_x86_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1.0.0&quot; OR VersionNT64 &gt;= &quot;6.1.0.0&quot;) AND (Arch = &quot;amd64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsAppCertificationKitx86_x86_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1.0.0&quot; OR VersionNT64 &gt;= &quot;6.1.0.0&quot;) AND (Arch = &quot;x86&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsAppCertificationKitx64OnecoreUAP_x86_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1.0.0&quot; OR VersionNT64 &gt;= &quot;6.1.0.0&quot;) AND (Arch = &quot;amd64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsAppCertificationKitNativeComponents_x86_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1.0.0&quot; OR VersionNT64 &gt;= &quot;6.1.0.0&quot;) AND (Arch = &quot;x86&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsAppCertificationKitNativeComponents_x64_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1.0.0&quot; OR VersionNT64 &gt;= &quot;6.1.0.0&quot;) AND (Arch = &quot;amd64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsAppCertificationKitSupportedApiListx86_x86_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1.0.0&quot; OR VersionNT64 &gt;= &quot;6.1.0.0&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies>
+        <Dependency Id="OptionId.AvrfExternal" />
+      </Dependencies>
+      <Description>
+        <Paragraph>
+          <Label>The Windows App Certification Kit can be used to pre-certify apps before onboarding to the Microsoft Store.</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.WindowsSDKEULA" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="true" Name="Windows Software Development Kit EULA">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsSDKEULA_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>This is a required installer for the SDK</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.IpOverUsb" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows IP Over USB">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsIPOverUSB_x86_en_us" InstallCondition="((VersionNT &gt;= &quot;6.1&quot;) OR (VersionNT64 &gt;= &quot;6.1&quot;)) AND (IsFunctionDiscoveryPnPProviderPresent OR IsFunctionDiscoveryPnPProviderPresent64)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>Enables communication between the Windows SDK and a Windows Device</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.MSIInstallTools" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="MSI Tools">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_MSIDevelopmentTools_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>Tools for creating and editing MSI installer packages.</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.SigningTools" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows SDK Signing Tools for Desktop Apps">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsSDKSigningTools_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>The Windows SDK Signing Tools for Desktop Apps</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.UWPManaged" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows SDK for UWP Managed Apps">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsSDKModernNonVersionedDeveloperTools_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsLegacyTools_x86_en_us" InstallCondition="VersionNT &lt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsIoTExtensionSDK_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_UniversalCRTToolsx86_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsContracts_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_UniversalCRTToolsx64_x64_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1&quot;) AND (Arch = &quot;amd64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreApps_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisenseDesktopenus_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsTools_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_UniversalCRTExtensionSDK_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsDesktopExtensionSDK_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_UniversalCRTToolsarm64_arm64_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1&quot;) AND (Arch = &quot;arm64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsIoTExtensionSDKContracts_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsDesktopExtensionSDKContracts_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisenseIoTenus_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsTeamExtensionSDK_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsMobileExtensionSDKContracts_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKFacadeWindowsWinMDVersioned_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKModernVersionedDeveloperTools_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinAppDeploy_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDK_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsMobileExtensionSDK_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisenseMobileenus_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_UniversalCRTRedistributable_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreManagedAppsLibs_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsTeamExtensionSDKContracts_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_UniversalCRTHeadersLibrariesandSources_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsMetadata_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisensePPIenus_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_UniversalGeneralMIDIDLSExtensionSDK_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisenseUAPenus_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_Facade_winmd" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+      </Packages>
+      <Dependencies>
+        <Dependency Id="OptionId.SigningTools" />
+      </Dependencies>
+      <Description>
+        <Paragraph>
+          <Label>The Windows SDK for UWP Managed Apps</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.UWPCPP" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows SDK for UWP C++ Apps">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsSDKDirectXx86Remote_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+        <Package Id="package_WindowsSDKRedistributables_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsLibs_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsDirectXx86Remote_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot; OR VersionNT64 &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsHeadersOnecoreUap_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDirectXx64Remote_x64_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1&quot; OR VersionNT64 &gt;= &quot;6.1&quot;) AND (Arch = &quot;amd64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsHeaders_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies>
+        <Dependency Id="OptionId.UWPManaged" />
+      </Dependencies>
+      <Description>
+        <Paragraph>
+          <Label>The Windows Software Development Kit for for UWP C++ Apps</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.UWPLocalized" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows SDK for UWP Apps Localization">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WinRTIntellisenseIoTOtherLanguages_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisenseUAPOtherLanguages_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisensePPIOtherLanguages_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisenseDesktopOtherLanguages_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies>
+        <Dependency Id="OptionId.UWPManaged" />
+      </Dependencies>
+      <Description>
+        <Paragraph>
+          <Label>The Windows SDK for UWP Apps Localization</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.DesktopCPPx86" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows SDK for Desktop C++ x86 Apps">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsSDKOnecoreUapHeadersx86_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDesktopHeadersx86_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDesktopToolsx86_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDesktopLibsx86_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies>
+        <Dependency Id="OptionId.UWPCPP" />
+      </Dependencies>
+      <Description>
+        <Paragraph>
+          <Label>The Windows SDK for Desktop C++ x86 apps</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.DesktopCPPx64" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows SDK for Desktop C++ amd64 Apps">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsSDKDesktopToolsx64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDesktopLibsx64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDesktopHeadersx64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKOnecoreUapHeadersx64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies>
+        <Dependency Id="OptionId.DesktopCPPx86" />
+      </Dependencies>
+      <Description>
+        <Paragraph>
+          <Label>The Windows SDK for Desktop C++ amd64 apps</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.DesktopCPParm64" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows SDK for Desktop C++ arm64 Apps">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsSDKDesktopToolsarm64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDesktopHeadersarm64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDesktopLibsarm64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKARM64DesktopTools_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKOnecoreUapHeadersarm64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_SDKARM64Additions_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_SDKARM64Redistributables_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies>
+        <Dependency Id="OptionId.DesktopCPPx64" />
+      </Dependencies>
+      <Description>
+        <Paragraph>
+          <Label>The Windows SDK for Desktop C++ arm64 Apps</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+  </Options>
+  <CustomStrings>
+    <String Id="WarningPageTitle">Important Information!</String>
+    <String Id="WarningPageParagraph1">Some features of the Windows 10 Software Development Kit (SDK) are not supported on this version of Windows. The Windows 10 SDK supports some versions of Windows as a targeting platform only, not as a development platform.  For detailed information, see the Release Notes for the Windows 10 SDK.</String>
+    <String Id="WarningPageParagraph2">If you continue with this installation, only those components that are supported on this version of Windows will be available to install.</String>
+    <String Id="WarningPageParagraph3">To continue with setup, choose Next.</String>
+    <String Id="SecondWarningPageTitle">Important Information!</String>
+    <String Id="SecondWarningPageParagraph1">The .NET Framework 4.6.1 is not installed. You cannot install the .NET Framework 4.8.1 Software Development Kit (SDK) feature of the Windows 10 SDK unless the .NET Framework 4.6.1 is installed prior to running setup.</String>
+    <String Id="SecondWarningPageParagraph2">To ensure that you install all of the features of the Windows 10 SDK, close setup now, install the .NET Framework 4.6.1, and then run setup again.</String>
+    <String Id="SecondWarningPageParagraph3">To proceed with the installation without the .NET Framework 4.8.1 SDK, choose Next.</String>
+    <String Id="ThirdWarningPageTitle">Windows Software Development Kit Cannot Install</String>
+    <String Id="ThirdWarningPageParagraph1">Setup has detected that KB 3118401 is not installed.</String>
+    <String Id="ThirdWarningPageParagraph2">This version of the Windows SDK requires the Windows update known as "Update for Universal C Runtime in Windows, KB 3118401". Please run Windows Update and make sure your installation includes all the recommended updates or install the KB directly and try setup again.</String>
+    <String Id="ThirdWarningPageParagraph3">Click here to view </String>
+    <String Id="ThirdWarningPageHyperlinkStatement">KB 3118401</String>
+  </CustomStrings>
+  <Wizard>
+    <Workflow Id="Install">
+      <Section Id="Start">
+        <Page Type="LocationPage">
+          <Parameters>
+            <Parameter>BlockIfNotEnoughSpace</Parameter>
+          </Parameters>
+        </Page>
+      </Section>
+      <Section Id="End">
+        <Page Type="CeipPage">
+          <Parameters />
+        </Page>
+        <Page Type="WarningPage" Condition="VersionNT &lt; &quot;6.1&quot;">
+          <Parameters />
+        </Page>
+        <Page Type="SecondWarningPage" Condition="(VersionNT &gt;= &quot;6.1&quot; OR VersionNT64 &gt;= &quot;6.1&quot;) AND DotNetVersion &lt; &quot;4.5.3&quot;">
+          <Parameters />
+        </Page>
+        <Page Type="ThirdWarningPage" Condition="(VersionNT &gt;= &quot;6.1&quot; OR VersionNT64 &gt;= &quot;6.1&quot;) AND (DotNetVersion &gt;= &quot;4.5.3&quot;) AND NOT (UCRTEXISTS &gt; &quot;0&quot; AND UCRTVERSION &gt;= &quot;10.0.0&quot;)">
+          <Parameters />
+        </Page>
+        <Page Type="EulaPage">
+          <Parameters />
+        </Page>
+        <Page Type="UserOptionSelectionPage">
+          <Parameters />
+        </Page>
+        <Page Type="ProgressPage">
+          <Parameters />
+        </Page>
+        <Page Type="FinishPage">
+          <Parameters />
+        </Page>
+      </Section>
+    </Workflow>
+    <Workflow Id="Layout">
+      <Section Id="Start">
+        <Page Type="LocationPage">
+          <Parameters>
+            <Parameter>BlockIfNotEnoughSpace</Parameter>
+          </Parameters>
+        </Page>
+      </Section>
+      <Section Id="End">
+        <Page Type="CeipPage">
+          <Parameters />
+        </Page>
+        <Page Type="UserOptionSelectionPage">
+          <Parameters />
+        </Page>
+        <Page Type="ProgressPage">
+          <Parameters />
+        </Page>
+        <Page Type="FinishPage">
+          <Parameters />
+        </Page>
+      </Section>
+    </Workflow>
+    <Workflow Id="Maintenance">
+      <Section Id="Start">
+        <Page Type="MaintenancePage" Condition="Installed">
+          <Parameters />
+        </Page>
+        <Page Type="FinishPage" Condition="NotInstalled">
+          <Parameters />
+        </Page>
+      </Section>
+      <Section Id="End">
+        <Page Type="UserOptionSelectionPage">
+          <Parameters />
+        </Page>
+        <Page Type="ProgressPage">
+          <Parameters />
+        </Page>
+        <Page Type="FinishPage">
+          <Parameters />
+        </Page>
+      </Section>
+    </Workflow>
+    <Workflow Id="Modify">
+      <Section Id="Start">
+        <Page Type="UserOptionSelectionPage">
+          <Parameters />
+        </Page>
+        <Page Type="ProgressPage" Condition="Installed">
+          <Parameters />
+        </Page>
+        <Page Type="FinishPage">
+          <Parameters />
+        </Page>
+      </Section>
+    </Workflow>
+    <Workflow Id="NoUpdates">
+      <Section Id="Start">
+        <Page Type="NoUpdatesPage">
+          <Parameters>
+            <Parameter>NoChange</Parameter>
+          </Parameters>
+        </Page>
+      </Section>
+    </Workflow>
+    <Workflow Id="NoUpdatesLayout">
+      <Section Id="End">
+        <Page Type="LocationPage">
+          <Parameters>
+            <Parameter>BlockIfNotEnoughSpace</Parameter>
+          </Parameters>
+        </Page>
+        <Page Type="UserOptionSelectionPage">
+          <Parameters />
+        </Page>
+        <Page Type="ProgressPage">
+          <Parameters />
+        </Page>
+        <Page Type="FinishPage">
+          <Parameters />
+        </Page>
+      </Section>
+    </Workflow>
+    <Workflow Id="Update">
+      <Section Id="Start">
+        <Page Type="LocationPage">
+          <Parameters>
+            <Parameter>BlockIfNotEnoughSpace</Parameter>
+          </Parameters>
+        </Page>
+      </Section>
+      <Section Id="End">
+        <Page Type="EulaPage">
+          <Parameters />
+        </Page>
+        <Page Type="UserOptionSelectionPage">
+          <Parameters />
+        </Page>
+        <Page Type="ProgressPage">
+          <Parameters />
+        </Page>
+        <Page Type="FinishPage">
+          <Parameters />
+        </Page>
+      </Section>
+    </Workflow>
+  </Wizard>
+  <CeipLoaded>true</CeipLoaded>
+</UserExperienceManifest>'
+[11F9C:1268C][2026-08-27T17:01:47]i000: View is requesting shutdown
+[11F9C:1268C][2026-08-27T17:01:47]i399: Apply complete, result: 0x0, restart: None, ba requested restart:  No
+[11F9C:1268C][2026-08-27T17:01:47]i500: Shutting down, exit code: 0x0
+[11F9C:1268C][2026-08-27T17:01:47]i000: Releasing global setup mutex.
+[11F9C:1268C][2026-08-27T17:01:47]i000: OS Architecture: amd64
+[11F9C:1268C][2026-08-27T17:01:47]i000: OS SKU: 99
+[11F9C:1268C][2026-08-27T17:01:47]i000: OS Version: 10.0.26200.1
+[11F9C:1268C][2026-08-27T17:01:47]i000: Current UI Culture: zh-CN
+[11F9C:1268C][2026-08-27T17:01:47]i000: Kit Version: 10.1.26100.7705
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: Arch = amd64
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: DotNetVersion = 4.8.09221
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: IsFlightedSDK = 0
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: IsFunctionDiscoveryPnPProviderPresent = <provider type="{8101368E-CABB-4426-ACFF-96C4108120CD}" />
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: IsFunctionDiscoveryPnPProviderPresent64 = <provider type="{8101368E-CABB-4426-ACFF-96C4108120CD}" />
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: KitsCeipOptIn = -1
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: KITSROOT = E:\Windows Kits\10\
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: Netfx45FullVersion = 533509
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: Netfx45x64FullVersion = 533509
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: Netfx4FullVersion = 4.8.09221
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: Netfx4x64FullVersion = 4.8.09221
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: QUIETFLAG = /q
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: SetupSessionState = <?xml version="1.0" encoding="utf-16"?>
+<UserExperienceManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/Setup/2010/01/Burn/UserExperience">
+  <Settings>
+    <BundleId>BundleId.WindowsSDK</BundleId>
+    <Company>Microsoft Corporation</Company>
+    <DefaultInstallPath MsiVariable="KITSROOT" IsLocked="false">E:\Windows Kits\10\</DefaultInstallPath>
+    <DefaultDownloadPath>C:\Users\21655\Downloads\Windows Kits\10\WindowsSDK</DefaultDownloadPath>
+    <DownloadAllContent>false</DownloadAllContent>
+    <GuideDocCheckedByDefault>false</GuideDocCheckedByDefault>
+    <GuideDocVisibleDuringUpdate>false</GuideDocVisibleDuringUpdate>
+    <DetectingVS>true</DetectingVS>
+    <Eula>license.rtf</Eula>
+    <EulaVersion>10.0.0.0</EulaVersion>
+    <ProductVersion>10.1.26100.7705</ProductVersion>
+    <UpgradeCode>{0A07A4BD-D942-5CF1-E76C-210F9FC1307B}</UpgradeCode>
+    <ProductName>Windows Software Development Kit - Windows 10.0.26100.7705</ProductName>
+    <SourceResolution>
+      <DownloadRoot>http://go.microsoft.com/fwlink/?prd=11966&amp;pver=1.0&amp;plcid=0x409&amp;clcid=0x409&amp;ar=Windows10&amp;sar=SDK&amp;o1=10.0.26100.7705</DownloadRoot>
+    </SourceResolution>
+  </Settings>
+  <Options>
+    <Option Id="OptionId.WindowsPerformanceToolkit" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows Performance Toolkit">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WPTx86OnecoreUAP_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.2&quot; AND Arch = &quot;x86&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WPTarm64OnecoreUAP_arm64_en_us" InstallCondition="(VersionNT &gt;= &quot;6.2&quot;) AND (Arch = &quot;arm64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WPTRedistributables_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.2&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WPTx64OnecoreUAP_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.2&quot; AND Arch = &quot;amd64&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WPTx64DesktopEditions_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.2&quot; AND Arch = &quot;amd64&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+        <Package Id="package_WPTarm64DesktopEditions_arm64_en_us" InstallCondition="(VersionNT &gt;= &quot;6.2&quot;) AND (Arch = &quot;arm64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WPTx86DesktopEditions_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.2&quot; AND Arch = &quot;x86&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Bullets>
+          <Bullet>
+            <Label>Windows Performance Recorder</Label>
+          </Bullet>
+          <Bullet>
+            <Label>Windows Performance Analyzer</Label>
+          </Bullet>
+          <Bullet>
+            <Label>Xperf</Label>
+          </Bullet>
+        </Bullets>
+        <Paragraph>
+          <Label>Tools to record system events by using Event Tracing for Windows, and a tool to analyze performance data in a graphical user interface.</Label>
+        </Paragraph>
+        <Paragraph>
+          <Label>Includes:</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.WindowsDesktopDebuggers" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Debugging Tools for Windows">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_SDKDebuggers_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>Kernel and user-mode debuggers as well as help and tips for using Debugging Tools for Windows.</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.AvrfExternal" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Application Verifier For Windows">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_ApplicationVerifierx86ExternalPackageOnecoreUAP_x86_en_us" InstallCondition="(Arch = &quot;x86&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_ApplicationVerifierx64ExternalPackageDesktopEditions_x64_en_us" InstallCondition="(Arch = &quot;amd64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_ApplicationVerifierx64ExternalPackageOnecoreUAP_x64_en_us" InstallCondition="(Arch = &quot;amd64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_ApplicationVerifierx86ExternalPackageDesktopEditions_x86_en_us" InstallCondition="(Arch = &quot;x86&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_ApplicationVerifierarm64ExternalPackageDesktopEditions_arm64_en_us" InstallCondition="(Arch = &quot;arm64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_ApplicationVerifierarm64ExternalPackageOnecoreUAP_arm64_en_us" InstallCondition="(Arch = &quot;arm64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>Application Verifier is a runtime verification tool for unmanaged code. It assists developers in quickly finding subtle programming errors that can be extremely difficult to identify with normal application testing. Application Verifier makes it easier to create reliable applications by monitoring an application's interaction with the Microsoft Windows operating system, profiling its use of kernel objects, the registry, the file system, and Microsoft Win32 APIs (heap, handles, locks, and more). </Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.Netfx" Available="true" Selected="true" SetupPrerequisite="true" Prerelease="false" Infrastructure="true" Name="Microsoft .NET Framework 4.5">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_.Net_Framework_4.5" SkipMsiReplacementCheck="false" SharedOrPayload="false">
+          <PackageLog>
+            <CustomLogs>
+              <CustomLog Type="RedirectedFile" Preferred="false" CreateSubdirectory="false" Extension=".htm" />
+            </CustomLogs>
+          </PackageLog>
+        </Package>
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>.NET Framework 4.0 is required to install this kit.</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.NetFxSoftwareDevelopmentKit" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name=".NET Framework 4.8.1 Software Development Kit">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_Microsoft_.NET_Framework_4.8.1_Tools" InstallCondition="(VersionNT &gt;= &quot;6.1&quot; OR VersionNT64 &gt;= &quot;6.1&quot;) AND DotNetVersion &gt;= &quot;4.6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+        <Package Id="package_.NET_Framework_4.8.1_Targeting_Pack" InstallCondition="(VersionNT &gt;= &quot;6.1&quot; OR VersionNT64 &gt;= &quot;6.1&quot;) AND DotNetVersion &gt;= &quot;4.6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>Components that let you develop managed code applications.  Included are Reference Assemblies and Tools targeting .NET Framework 4.8.1</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.KitsConfiguration" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="true" Name="Kits Configuration Installer">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_KitsConfigurationInstaller_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>This is a required installer for every kit.</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.WindowsSoftwareLogoToolkit" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows App Certification Kit">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsAppCertificationKitx86OnecoreUAP_x86_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1.0.0&quot; OR VersionNT64 &gt;= &quot;6.1.0.0&quot;) AND (Arch = &quot;x86&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsAppCertificationKitx64_x86_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1.0.0&quot; OR VersionNT64 &gt;= &quot;6.1.0.0&quot;) AND (Arch = &quot;amd64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsAppCertificationKitx86_x86_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1.0.0&quot; OR VersionNT64 &gt;= &quot;6.1.0.0&quot;) AND (Arch = &quot;x86&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsAppCertificationKitx64OnecoreUAP_x86_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1.0.0&quot; OR VersionNT64 &gt;= &quot;6.1.0.0&quot;) AND (Arch = &quot;amd64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsAppCertificationKitNativeComponents_x86_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1.0.0&quot; OR VersionNT64 &gt;= &quot;6.1.0.0&quot;) AND (Arch = &quot;x86&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsAppCertificationKitNativeComponents_x64_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1.0.0&quot; OR VersionNT64 &gt;= &quot;6.1.0.0&quot;) AND (Arch = &quot;amd64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsAppCertificationKitSupportedApiListx86_x86_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1.0.0&quot; OR VersionNT64 &gt;= &quot;6.1.0.0&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies>
+        <Dependency Id="OptionId.AvrfExternal" />
+      </Dependencies>
+      <Description>
+        <Paragraph>
+          <Label>The Windows App Certification Kit can be used to pre-certify apps before onboarding to the Microsoft Store.</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.WindowsSDKEULA" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="true" Name="Windows Software Development Kit EULA">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsSDKEULA_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>This is a required installer for the SDK</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.IpOverUsb" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows IP Over USB">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsIPOverUSB_x86_en_us" InstallCondition="((VersionNT &gt;= &quot;6.1&quot;) OR (VersionNT64 &gt;= &quot;6.1&quot;)) AND (IsFunctionDiscoveryPnPProviderPresent OR IsFunctionDiscoveryPnPProviderPresent64)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>Enables communication between the Windows SDK and a Windows Device</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.MSIInstallTools" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="MSI Tools">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_MSIDevelopmentTools_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>Tools for creating and editing MSI installer packages.</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.SigningTools" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows SDK Signing Tools for Desktop Apps">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsSDKSigningTools_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies />
+      <Description>
+        <Paragraph>
+          <Label>The Windows SDK Signing Tools for Desktop Apps</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.UWPManaged" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows SDK for UWP Managed Apps">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsSDKModernNonVersionedDeveloperTools_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsLegacyTools_x86_en_us" InstallCondition="VersionNT &lt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsIoTExtensionSDK_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_UniversalCRTToolsx86_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsContracts_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_UniversalCRTToolsx64_x64_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1&quot;) AND (Arch = &quot;amd64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreApps_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisenseDesktopenus_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsTools_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_UniversalCRTExtensionSDK_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsDesktopExtensionSDK_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_UniversalCRTToolsarm64_arm64_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1&quot;) AND (Arch = &quot;arm64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsIoTExtensionSDKContracts_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsDesktopExtensionSDKContracts_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisenseIoTenus_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsTeamExtensionSDK_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsMobileExtensionSDKContracts_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKFacadeWindowsWinMDVersioned_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKModernVersionedDeveloperTools_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinAppDeploy_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDK_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsMobileExtensionSDK_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisenseMobileenus_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_UniversalCRTRedistributable_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreManagedAppsLibs_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsTeamExtensionSDKContracts_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_UniversalCRTHeadersLibrariesandSources_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsMetadata_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisensePPIenus_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_UniversalGeneralMIDIDLSExtensionSDK_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisenseUAPenus_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_Facade_winmd" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+      </Packages>
+      <Dependencies>
+        <Dependency Id="OptionId.SigningTools" />
+      </Dependencies>
+      <Description>
+        <Paragraph>
+          <Label>The Windows SDK for UWP Managed Apps</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.UWPCPP" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows SDK for UWP C++ Apps">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsSDKDirectXx86Remote_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+        <Package Id="package_WindowsSDKRedistributables_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsLibs_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsDirectXx86Remote_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot; OR VersionNT64 &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsHeadersOnecoreUap_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDirectXx64Remote_x64_en_us" InstallCondition="(VersionNT &gt;= &quot;6.1&quot; OR VersionNT64 &gt;= &quot;6.1&quot;) AND (Arch = &quot;amd64&quot;)" SkipMsiReplacementCheck="false" SharedOrPayload="true" />
+        <Package Id="package_WindowsSDKforWindowsStoreAppsHeaders_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies>
+        <Dependency Id="OptionId.UWPManaged" />
+      </Dependencies>
+      <Description>
+        <Paragraph>
+          <Label>The Windows Software Development Kit for for UWP C++ Apps</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.UWPLocalized" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows SDK for UWP Apps Localization">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WinRTIntellisenseIoTOtherLanguages_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisenseUAPOtherLanguages_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisensePPIOtherLanguages_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WinRTIntellisenseDesktopOtherLanguages_x86_en_us" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies>
+        <Dependency Id="OptionId.UWPManaged" />
+      </Dependencies>
+      <Description>
+        <Paragraph>
+          <Label>The Windows SDK for UWP Apps Localization</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.DesktopCPPx86" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows SDK for Desktop C++ x86 Apps">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsSDKOnecoreUapHeadersx86_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDesktopHeadersx86_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDesktopToolsx86_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDesktopLibsx86_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies>
+        <Dependency Id="OptionId.UWPCPP" />
+      </Dependencies>
+      <Description>
+        <Paragraph>
+          <Label>The Windows SDK for Desktop C++ x86 apps</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.DesktopCPPx64" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows SDK for Desktop C++ amd64 Apps">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsSDKDesktopToolsx64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDesktopLibsx64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDesktopHeadersx64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKOnecoreUapHeadersx64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies>
+        <Dependency Id="OptionId.DesktopCPPx86" />
+      </Dependencies>
+      <Description>
+        <Paragraph>
+          <Label>The Windows SDK for Desktop C++ amd64 apps</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+    <Option Id="OptionId.DesktopCPParm64" Available="true" Selected="true" SetupPrerequisite="false" Prerelease="false" Infrastructure="false" Name="Windows SDK for Desktop C++ arm64 Apps">
+      <SubOptions />
+      <Packages>
+        <Package Id="package_WindowsSDKDesktopToolsarm64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDesktopHeadersarm64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKDesktopLibsarm64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKARM64DesktopTools_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_WindowsSDKOnecoreUapHeadersarm64_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_SDKARM64Additions_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+        <Package Id="package_SDKARM64Redistributables_x86_en_us" InstallCondition="VersionNT &gt;= &quot;6.1&quot;" SkipMsiReplacementCheck="false" SharedOrPayload="false" />
+      </Packages>
+      <Dependencies>
+        <Dependency Id="OptionId.DesktopCPPx64" />
+      </Dependencies>
+      <Description>
+        <Paragraph>
+          <Label>The Windows SDK for Desktop C++ arm64 Apps</Label>
+        </Paragraph>
+      </Description>
+    </Option>
+  </Options>
+  <CustomStrings>
+    <String Id="WarningPageTitle">Important Information!</String>
+    <String Id="WarningPageParagraph1">Some features of the Windows 10 Software Development Kit (SDK) are not supported on this version of Windows. The Windows 10 SDK supports some versions of Windows as a targeting platform only, not as a development platform.  For detailed information, see the Release Notes for the Windows 10 SDK.</String>
+    <String Id="WarningPageParagraph2">If you continue with this installation, only those components that are supported on this version of Windows will be available to install.</String>
+    <String Id="WarningPageParagraph3">To continue with setup, choose Next.</String>
+    <String Id="SecondWarningPageTitle">Important Information!</String>
+    <String Id="SecondWarningPageParagraph1">The .NET Framework 4.6.1 is not installed. You cannot install the .NET Framework 4.8.1 Software Development Kit (SDK) feature of the Windows 10 SDK unless the .NET Framework 4.6.1 is installed prior to running setup.</String>
+    <String Id="SecondWarningPageParagraph2">To ensure that you install all of the features of the Windows 10 SDK, close setup now, install the .NET Framework 4.6.1, and then run setup again.</String>
+    <String Id="SecondWarningPageParagraph3">To proceed with the installation without the .NET Framework 4.8.1 SDK, choose Next.</String>
+    <String Id="ThirdWarningPageTitle">Windows Software Development Kit Cannot Install</String>
+    <String Id="ThirdWarningPageParagraph1">Setup has detected that KB 3118401 is not installed.</String>
+    <String Id="ThirdWarningPageParagraph2">This version of the Windows SDK requires the Windows update known as "Update for Universal C Runtime in Windows, KB 3118401". Please run Windows Update and make sure your installation includes all the recommended updates or install the KB directly and try setup again.</String>
+    <String Id="ThirdWarningPageParagraph3">Click here to view </String>
+    <String Id="ThirdWarningPageHyperlinkStatement">KB 3118401</String>
+  </CustomStrings>
+  <Wizard>
+    <Workflow Id="Install">
+      <Section Id="Start">
+        <Page Type="LocationPage">
+          <Parameters>
+            <Parameter>BlockIfNotEnoughSpace</Parameter>
+          </Parameters>
+        </Page>
+      </Section>
+      <Section Id="End">
+        <Page Type="CeipPage">
+          <Parameters />
+        </Page>
+        <Page Type="WarningPage" Condition="VersionNT &lt; &quot;6.1&quot;">
+          <Parameters />
+        </Page>
+        <Page Type="SecondWarningPage" Condition="(VersionNT &gt;= &quot;6.1&quot; OR VersionNT64 &gt;= &quot;6.1&quot;) AND DotNetVersion &lt; &quot;4.5.3&quot;">
+          <Parameters />
+        </Page>
+        <Page Type="ThirdWarningPage" Condition="(VersionNT &gt;= &quot;6.1&quot; OR VersionNT64 &gt;= &quot;6.1&quot;) AND (DotNetVersion &gt;= &quot;4.5.3&quot;) AND NOT (UCRTEXISTS &gt; &quot;0&quot; AND UCRTVERSION &gt;= &quot;10.0.0&quot;)">
+          <Parameters />
+        </Page>
+        <Page Type="EulaPage">
+          <Parameters />
+        </Page>
+        <Page Type="UserOptionSelectionPage">
+          <Parameters />
+        </Page>
+        <Page Type="ProgressPage">
+          <Parameters />
+        </Page>
+        <Page Type="FinishPage">
+          <Parameters />
+        </Page>
+      </Section>
+    </Workflow>
+    <Workflow Id="Layout">
+      <Section Id="Start">
+        <Page Type="LocationPage">
+          <Parameters>
+            <Parameter>BlockIfNotEnoughSpace</Parameter>
+          </Parameters>
+        </Page>
+      </Section>
+      <Section Id="End">
+        <Page Type="CeipPage">
+          <Parameters />
+        </Page>
+        <Page Type="UserOptionSelectionPage">
+          <Parameters />
+        </Page>
+        <Page Type="ProgressPage">
+          <Parameters />
+        </Page>
+        <Page Type="FinishPage">
+          <Parameters />
+        </Page>
+      </Section>
+    </Workflow>
+    <Workflow Id="Maintenance">
+      <Section Id="Start">
+        <Page Type="MaintenancePage" Condition="Installed">
+          <Parameters />
+        </Page>
+        <Page Type="FinishPage" Condition="NotInstalled">
+          <Parameters />
+        </Page>
+      </Section>
+      <Section Id="End">
+        <Page Type="UserOptionSelectionPage">
+          <Parameters />
+        </Page>
+        <Page Type="ProgressPage">
+          <Parameters />
+        </Page>
+        <Page Type="FinishPage">
+          <Parameters />
+        </Page>
+      </Section>
+    </Workflow>
+    <Workflow Id="Modify">
+      <Section Id="Start">
+        <Page Type="UserOptionSelectionPage">
+          <Parameters />
+        </Page>
+        <Page Type="ProgressPage" Condition="Installed">
+          <Parameters />
+        </Page>
+        <Page Type="FinishPage">
+          <Parameters />
+        </Page>
+      </Section>
+    </Workflow>
+    <Workflow Id="NoUpdates">
+      <Section Id="Start">
+        <Page Type="NoUpdatesPage">
+          <Parameters>
+            <Parameter>NoChange</Parameter>
+          </Parameters>
+        </Page>
+      </Section>
+    </Workflow>
+    <Workflow Id="NoUpdatesLayout">
+      <Section Id="End">
+        <Page Type="LocationPage">
+          <Parameters>
+            <Parameter>BlockIfNotEnoughSpace</Parameter>
+          </Parameters>
+        </Page>
+        <Page Type="UserOptionSelectionPage">
+          <Parameters />
+        </Page>
+        <Page Type="ProgressPage">
+          <Parameters />
+        </Page>
+        <Page Type="FinishPage">
+          <Parameters />
+        </Page>
+      </Section>
+    </Workflow>
+    <Workflow Id="Update">
+      <Section Id="Start">
+        <Page Type="LocationPage">
+          <Parameters>
+            <Parameter>BlockIfNotEnoughSpace</Parameter>
+          </Parameters>
+        </Page>
+      </Section>
+      <Section Id="End">
+        <Page Type="EulaPage">
+          <Parameters />
+        </Page>
+        <Page Type="UserOptionSelectionPage">
+          <Parameters />
+        </Page>
+        <Page Type="ProgressPage">
+          <Parameters />
+        </Page>
+        <Page Type="FinishPage">
+          <Parameters />
+        </Page>
+      </Section>
+    </Workflow>
+  </Wizard>
+  <CeipLoaded>true</CeipLoaded>
+</UserExperienceManifest>
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: SystemFolder = C:\WINDOWS\SysWOW64\
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: UCRTEXISTS = 1
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: UCRTVERSION = 10.0.26100.8875
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: UserLocale = zh-cn
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: VersionNT = 10.0.0.0
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: VersionNT64 = 10.0.0.0
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: VS2022INSTALL = C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: WDKVsixComponentRequired = 1
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: WixBundleAction = 6
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: WixBundleElevated = 1
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: WixBundleInstalled = 1
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: WixBundleLog = F:\AI\Antigravity\projects\ToDoList\winsdk_log.txt
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: WixBundleManufacturer = Microsoft Corporation
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: WixBundleName = Windows Software Development Kit - Windows 10.0.26100.7705
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: WixBundleOriginalSource = C:\WINDOWS\Temp\{3A490FD2-ACF5-4910-BDBA-5DDE615C8C34}\.cr\winsdksetup.exe
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: WixBundleOriginalSourceFolder = C:\Users\21655\AppData\Local\Temp\WinGet\Microsoft.WindowsSDK.10.0.26100.10.0.26100.7705\
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: WixBundleProviderKey = {c0b93b80-d0a4-47fc-a4d1-21a4008a63ca}
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: WixBundleSourceProcessFolder = F:\AI\Antigravity\projects\ToDoList\
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: WixBundleSourceProcessPath = F:\AI\Antigravity\projects\ToDoList\winsdksetup.exe
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: WixBundleTag = 
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: WixBundleUILevel = 2
+[11F9C:1268C][2026-08-27T17:01:47]i410: Variable: WixBundleVersion = 10.1.26100.7705
+[11F9C:1268C][2026-08-27T17:01:47]i007: Exit code: 0x0, restarting: No
